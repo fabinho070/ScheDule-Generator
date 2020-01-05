@@ -1,0 +1,449 @@
+body{
+	background-color:#333;
+}	
+.navbar{
+	text-decoration:none;
+	text-align:center;
+	width:25%;
+	height:100%;
+	max-height: max-content;
+}
+
+.arrumando{
+	margin-top:-40px;
+}
+
+.btn-custom{
+	padding:10px 20px 10px 20px;
+	border-radius:50px;
+	right:30px;
+}
+
+.btn-icon{
+	padding:8px;
+	background:#FFF;
+}
+h1{
+	color:#F90;
+	font-size:28px;
+}
+h2{
+	color:#ffc107;
+	font-size:23px;
+
+}
+h3{
+	text-align:justify;
+	font-size: 20px;
+	width:543px;
+	color:#FFF;
+}
+
+table{
+	border-color:#FFF;
+	border-radius:20px;
+	border-style:double;
+	
+}
+h4{
+	text-align:center;
+	color:#FFF;
+}
+
+.text-center{
+	color:#FFF;
+	font-size:24px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.btn-3d{
+	position:relative;
+	top:-6px;
+	border:0;
+	transition: all 40ms linear;
+	margin-top:10px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+.btn-3d: active:focus;
+.btn-3d: active:houver;
+.btn-3d: focus{
+	-moz-outline: none;
+	outline: medium none;
+}
+.btn-3d:active,
+.btn-3d:active{
+	top:2px;
+}
+
+.botao-grande{
+	border-radius: 40px;
+	height:300px;
+	text-align:center;
+	width:300px;
+}
+
+.botaodireito{
+	margin-left:330px;
+	margin-top:-300px;
+}
+
+.fonte-grande{
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.circulo{
+	border-radius:15px;
+}
+
+.novohorario{ 
+	margin-top:0px;
+	width:150px; 
+	height:150px;
+}
+
+.horariogerado{ 
+	margin-top:-45px;
+	width:220px; 
+	height:220px;
+}
+.verhorario{
+	margin-top:0;
+	width:150px; 
+	height:150px;
+}
+
+.botoes{
+	margin-left:500px; 
+	margin-top:-150px; 
+	height:60px; 
+	color:white;
+}
+
+/* Propriedade Dropdown */
+.dropbtn {
+	background-color:rgb(255, 255, 250);
+	color:black;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  /* mouse sobre o dropdown */
+  .dropbtn:hover, .dropbtn:focus {
+	background-color: rgba(255, 255, 255, 0.699);
+  }
+  
+  /* campo de pesquisa */
+  #myInput {
+	box-sizing: border-box;
+	background-image: url('searchicon.png');
+	background-position: 14px 12px;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	padding: 14px 20px 12px 45px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+  }
+  
+  /* botão de pesquisa quando é clicado */
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  /* O container <div> - necessário para posicionar o conteúdo se mexe conforme a pesquisa */
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Conteúdo suspenso (oculto por padrão) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f6f6f6;
+	min-width: 230px;
+	border: 1px solid #ddd;
+	z-index: 1;
+  }
+  
+  /* Links dentro do dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Alterar a cor dos links suspensos ao passar o mouse */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Mostrar o menu suspenso (use JS para adicionar esta classe ao contêiner .dropdown-content quando o usuário clicar no botão suspenso) */
+  .show {display:block;}
+
+  .inputscustomizados{
+	  border-radius:10px;
+	  text-align:center;
+  }
+
+  .formcurso01{ 
+	text-align:center;
+	border-radius:50px;
+  }
+
+  
+  .formcurso02{   
+	text-align:center;
+	margin-top:-100px;
+  }
+
+  .formcurso03{
+	text-align:center;
+	margin-left:330px;
+  }
+
+
+  .formcurso04{ 
+	text-align:center;
+	margin-left:590px;
+	margin-top:-100px;
+  }
+
+
+  .formcurso05{
+	text-align:center;
+	margin-left:475px;
+}
+
+.teste{
+	margin-top:5px;
+}
+.botoes-baixos{
+	margin-top:-5px;
+}
+
+@media screen and (max-height:1000px) and (max-width:920px){
+
+	
+	.inputscustomizados{
+		border-radius:10px;
+		text-align:center;
+	}
+
+	.formcurso01{ 
+		border-radius:50px;
+		margin-left:25%;
+	  }
+	
+	  
+	  .formcurso02{   
+		margin-top:50px;
+		margin-left:25%;
+	  }
+	
+	  .formcurso03{
+		margin-top:50px;
+		border-radius:5px;
+		margin-left:25%;
+		align:center;
+	  }
+	
+	
+	  .formcurso04{ 
+		margin-top:50px;
+		border-radius:5px;
+		margin-left:25%;
+	  }
+	
+	
+	  .formcurso05{
+		margin-top:50px;
+		border-radius:5px;
+		margin-left:25%;
+	}
+}
+
+@media screen and (min-height:400px) and (max-width:900px){
+	body{
+		background-color:#333;
+	}
+
+	.alerta{
+		margin-left:0px;
+		width:500px;
+	}
+
+	.checkbox{
+		left:300%;
+	}
+	
+	.btn-custom{
+		padding:10px 15px -10px 20px;    altura  direita espaço_entre_eles   
+		border-radius:50px;
+		text-align:center;
+		font-size:14px;  
+	}
+	
+	.btn-icon{
+		padding:8px;
+		background:#FFF;
+	}
+	h1{
+		margin-top:20px;
+		margin-left:20px;
+		color:#F90;
+		font-size:35px;
+	}
+	h2{
+		margin-left:20px;
+		color:#ffc107;
+		font-size:35px;
+	}
+	
+	
+	h3{
+		text-align:justify;
+		font-size:25px;
+	}
+	
+	.btn-3d{
+		position:relative;
+		top:-6px;
+		border:0;
+		transition: all 40ms linear;
+		margin-top:10px;
+		margin-left:2px;
+		margin-right:2px;
+	}
+	
+	.btn-3d: active:focus;
+	.btn-3d: active:houver;
+	.btn-3d: focus{
+		-moz-outline: none;
+		outline: medium none;
+	}
+	.btn-3d:active,
+	.btn-3d:active{
+		top:2px;
+	}
+	.botao{
+		font-size:20;
+		margin-left:40px; 
+	}	
+	.botao-grande{
+		border-radius: 40px;
+		height:250px;	
+		width:250px;
+	}
+	.novohorario{ 
+		margin-top:-30px;
+		width:120px; 
+		height:120px;
+	}
+	.verhorario{
+		margin-top:-30px;
+		width:120; 
+		height:120;
+	}
+.fontegrande{
+	padding:10px;
+	font-size:20px;
+}
+
+@media screen and (min-height:354px) and (max-width:1124px){
+	body{
+		background-color:#333;
+	}	
+
+	.alerta{
+		margin-left:15px;
+		width:450px;
+	}
+	.checkbox{
+		left:1%;
+	}
+	
+	
+	.btn-custom{
+		padding:10px 15px -10px 20px;    altura  direita espaço_entre_eles   
+		border-radius:50px;
+		text-align:center;
+		font-size:0px;  
+	}
+	
+	.btn-icon{
+		padding:8px;
+		background:#FFF;
+	}
+	h1{
+		margin-top:20px;
+		margin-left:20px;
+		color:#F90;
+		font-size:25px;
+	}
+	h2{
+		margin-left:20px;
+		color:#ffc107;
+		font-size:25px;
+	}
+	
+	
+	h3{
+		text-align:justify;
+		font-size:25px;
+	}
+	
+	.btn-3d{
+		position:relative;
+		top:-6px;
+		border:0;
+		transition: all 40ms linear;
+		margin-top:10px;
+		margin-left:2px;
+		margin-right:2px;
+	}
+	
+	.btn-3d: active:focus;
+	.btn-3d: active:houver;
+	.btn-3d: focus{
+		-moz-outline: none;
+		outline: medium none;
+	}
+	.btn-3d:active,
+	.btn-3d:active{
+		top:2px;
+	}
+	.botao{
+		font-size:0;
+		margin-left:40px; 
+	}	
+	.botao-grande{
+		border-radius: 40px;
+		height:150px;	
+		width:150px;
+	}
+	.novohorario{ 
+		margin-top:45px;
+		width:50px; 
+		height:50px;
+	}
+	.verhorario{
+		margin-top:45px;
+		width:50; 
+		height:50;
+	}
+.fontegrande{
+	padding:10px;
+	font-size:20px;
+}
+
+@media screen and (min-height:300px) and (max-width:1050px){
+
+	.alerta{
+		margin-left:10px;
+		width:400px;
+	}
+	.checkbox{
+		left:24%;
+	}
+}

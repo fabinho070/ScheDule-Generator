@@ -1,0 +1,219 @@
+﻿body{
+background-image:url(../IMG/background.png);
+background-size: cover;
+height:100%;
+}
+
+.direita{
+	right:1000px;
+}
+
+.desfoque {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.6);
+	opacity: 0;
+	transform: translateZ(0);
+  }
+
+.quemsomosnos{
+	background-color:#666;
+	background: rgba(43, 43, 43, 0.6);
+	font-size:25px;
+	text-align:center;
+	width:600px;
+	height:570px;
+	margin-left:450px;
+	margin-top:-115px;
+    border-radius:25px;
+}
+
+.login{
+	margin-left:725px;
+	margin-top:-30px;
+	width: 500px;
+	height:400px;
+	background-color:#666;
+	background: rgba(43, 43, 43, 0.6);
+	border-radius:25px;
+	text-align:center;
+
+}
+
+.login2{
+	background-color:#666;
+	background: rgba(43, 43, 43, 0.6);
+	font-size:14px;
+	text-align:center;
+	width:500px;
+	height:425px;
+	left:250px;
+	border-radius:25px;
+	margin-left:720px;
+	margin-top:-40px;
+}
+
+
+h2{
+	color:#FFF;
+}
+
+.imagem{
+	height:500px;
+	right:500px;
+    margin-left:30px;
+    margin-top: 40px;
+}
+
+h4{
+	color:#FFF;
+}
+
+.circulo{
+	border-radius:25px;
+}
+.labelredondo{
+	border-radius:10px;
+	text-align:center;
+}
+
+
+.senhabotao{
+	left:20px;
+}
+
+.alinhando{
+	margin-left:50px;
+}
+
+.btn-3d{
+	position:relative;
+	top:-6px;
+	border:0;
+	transition: all 40ms linear;
+	margin-top:10px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+.btn-3d: active:focus;
+.btn-3d: active:houver;
+.btn-3d: focus{
+	-moz-outline: none;
+	outline: medium none;
+}
+.btn-3d:active,
+.btn-3d:active{
+	top:2px;
+}
+
+@media screen and (min-width:0px) and (max-width:657px){
+
+	body{
+		height:140%;
+		background-image:url(../IMG/smartphone.png);
+		background-size:cover;
+		}
+		
+		.desfoque {
+			display: none;
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			background: rgba(0, 0, 0, 0.6);
+			opacity: 0;
+			transform: translateZ(0);
+		  }
+		 
+		.imagem{
+			align-content: center;
+			border-radius:25px;
+			margin-left: 50px;
+			margin-right: 50px;
+			height:400px;
+			margin-top:-60;
+		}
+		
+		.quemsomosnos{
+			background-color:#666;
+	        background: rgba(43, 43, 43, 0.6);
+	        font-size:20px;
+	        text-align:center;
+	        width:320px;
+	        height:740px;
+	        margin-left:0px;
+	        margin-top:-115px;
+            border-radius:25px;
+		}
+		
+		.login{
+			margin-top:-80px;
+			margin-left:50px;
+			height:440px;
+			width:270px;
+			background-color:#666;
+			background: rgba(43, 43, 43, 0.6);
+			border-radius:25px;
+		}
+		
+		.login2{
+			background-color:#666;
+			background: rgba(43, 43, 43, 0.6);
+			font-size:	14px;
+			text-align:center;
+			width:280px;
+			height:525px;
+			border-radius:25px;
+			margin-top:-80px;
+			margin-left:25px;
+		}
+		
+		
+		h2{
+			color:#FFF;
+		}
+		
+		h4{
+			color:#FFF;
+		}
+		label{
+			border-radius:10px;
+			text-align:center;
+		}
+
+		.senhabotao{
+			left:20px;
+		}
+
+		.alinhando{
+			margin-left:50px;
+		}
+		
+		.btn-3d{
+			position:relative;
+			top:-6px;
+			border:0;
+			transition: all 40ms linear;
+			margin-top:10px;
+			margin-left:2px;
+			margin-right:2px;
+		}
+		
+		.btn-3d: active:focus;
+		.btn-3d: active:houver;
+		.btn-3d: focus{
+			-moz-outline: none;
+			outline: medium none;
+		}
+		.btn-3d:active,
+		.btn-3d:active{
+			top:2px;
+		}
+
+}
